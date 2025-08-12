@@ -1,0 +1,10 @@
+#pncontrols label{
+  display:inline-block;
+  width: 65px;
+  font-weight: 777;
+  cursor: pointer;
+  margin-bottom:5px;
+}
+#previous-text{
+  margin-bottom:5px
+}

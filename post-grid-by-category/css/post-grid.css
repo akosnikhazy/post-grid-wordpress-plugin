@@ -1,0 +1,42 @@
+.pg-plugin-post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    width:100%
+}
+
+.pg-plugin-post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center; 
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.pg-plugin-post-thumbnail {
+    width: 100%; 
+    height: 200px;
+    overflow: hidden;
+    position: relative; 
+}
+
+
+.pg-plugin-post-title {
+    font-size: 1.1em!important;
+    margin: 10px 0; 
+}
+
+
+
+.pg-plugin-post-excerpt {
+     font-size: 0.6em; 
+    line-height: 1.4;
+    margin: 10px 0; 
+}
+.pg-plugin-pagination{
+font-size: 0.9em; 
+    line-height: 1.4;
+    margin: 10px 0; 
+}
